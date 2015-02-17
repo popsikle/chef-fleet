@@ -6,9 +6,9 @@
 #
 
 
-include_recipe "fleetd::#{node['fleetd']['install_type']}"
+include_recipe "fleetd::#{node['fleet']['install_type']}"
 
-directory "#{node['fleetd']['config']['dir']}/" do
+directory "#{node['fleet']['config']['dir']}/" do
   recursive true
 end
 

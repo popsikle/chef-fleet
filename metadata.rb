@@ -1,4 +1,4 @@
-name             "fleetd"
+name             "fleet"
 maintainer       "Salvatore Poliandro"
 maintainer_email "sal@keep.com"
 license          "Apache 2.0"

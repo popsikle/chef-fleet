@@ -1,4 +1,4 @@
-# <a name="title"></a> fleetd [![Build Status](https://secure.travis-ci.org/saltmine/chef-fleetd.png?branch=master)](http://travis-ci.org/saltmine/chef-fleetd)
+# <a name="title"></a> fleet [![Build Status](https://secure.travis-ci.org/saltmine/chef-fleet.png?branch=master)](http://travis-ci.org/saltmine/chef-fleet)
 
 
 Description
@@ -22,12 +22,12 @@ TODO
 
 ## Source
 
-* `node['fleetd']['source']['repo']` - The git repo to use for the
+* `node['fleet']['source']['repo']` - The git repo to use for the
   source code of fleetd
-* `node['fleetd']['source']['sha']` - The sha/branch/tag of the repo
+* `node['fleet']['source']['sha']` - The sha/branch/tag of the repo
   you wish to clone. Uses `node['fleetd']['version']` by
   default.
-* `node['fleetd']['source']['go_path']` - your `go_path`
+* `node['fleet']['source']['go_path']` - your `go_path`
   location. Needed for building from source
 
 
